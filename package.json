@@ -1,0 +1,24 @@
+{
+  "name": "support-team-sandbox",
+  "version": "1.0.0",
+  "description": "Small project for quickly testing customer issues",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:version": "cypress version",
+    "cypress:info": "cypress info",
+    "cypress:cache:list": "cypress cache list",
+    "list-videos": "ls -l cypress/videos"
+  },
+  "keywords": [],
+  "author": "Cypress Support Team",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypress-io/cypress-test-tiny.git"
+  }
+}
