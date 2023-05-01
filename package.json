@@ -15,7 +15,6 @@
   "author": "Cypress Support Team",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.11.0"
   },
   "repository": {
     "type": "git",
