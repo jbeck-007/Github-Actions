@@ -33,16 +33,16 @@ This project **DOES NOT** include the following:
     ```
 7. In your code editor, navigate to the test.yml file and add the Github Actions configuration with Parallelization outlined in this repo on the `package.json` file.
 8. Navigate to Cypress Cloud and create a new project. Give the project a name. On the next screen, copy the Project Id. 
-    ![](https://scribehow.com/shared/Github_Actions_wParallelization__mr9an2-PSNqWHJVF0l3PcA#aea6dcce)
+    ![]()
     
 9. Navigate to your Github repo. Click on Settings, Secrets and variables, and then Actions. Click New Repository Secret and name it PROJECT_ID. Paste the project id you copied in the last step and then click Add Secret. 
 
-    ![](https://scribehow.com/shared/Github_Actions_wParallelization__mr9an2-PSNqWHJVF0l3PcA#b66d2408)
+    ![]()
 
 10. Navigate back to the Cypress Cloud and copy the record key. 
-    ![](https://scribehow.com/shared/Github_Actions_wParallelization__mr9an2-PSNqWHJVF0l3PcA#0b8039f9)
+    ![]()
 11. Navigate back to your Github repo. Click New Repository Secret and name it CYPRESS_RECORD_KEY. Paste the record key you copied in the last step and then click Add Secret. 
-    ![](https://scribehow.com/shared/Github_Actions_wParallelization__mr9an2-PSNqWHJVF0l3PcA#4fcc7dac)
+    ![]()
 12. Navigate back to your terminal window and run Cypress using the command below to setup Cloud recording. 
     ```
     npx cypress run --record --key <insert key here>
