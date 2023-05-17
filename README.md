@@ -1,6 +1,6 @@
 # Github Actions w/ Parallelization
 
-## [Link to Scribe](https://scribehow.com/shared/Github_Actions_wParallelization__mr9an2-PSNqWHJVF0l3PcA)
+## [Link to Scribe](https://scribehow.com/shared/Github_Actions_wParallelization__3_TDlxvbQ32MTvKLC2aUwA)
 
 ## Important
 This project **DOES NOT** include the following: 
